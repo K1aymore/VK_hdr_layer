@@ -1,8 +1,8 @@
-vkroots_dep = dependency('vkroots')
+
 wayland_client = dependency('wayland-client')
 
 hdr_wsi_layer = shared_library('VkLayer_hdr_wsi', 'VkLayer_hdr_wsi.cpp', protocols_client_src,
-  dependencies     : [ vkroots_dep, wayland_client ],
+  dependencies     : [ wayland_client ],
   install          : true )
 
 out_lib_dir = join_paths(prefix, lib_dir)
