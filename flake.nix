@@ -30,9 +30,9 @@
             enableParallelBuilding = true;
 
             meta = with pkgs.lib; {
-              homepage = "https://github.com/ExpidusOS/libtokyo";
-              license = with licenses; [ gpl3Only ];
-              maintainers = [ "Tristan Ross" ];
+              homepage = "https://github.com/Zamundaaa/VK_hdr_layer";
+              license = with licenses; [ mit ];
+              maintainers = [ "K1aymore" ];
             };
           };
         });
